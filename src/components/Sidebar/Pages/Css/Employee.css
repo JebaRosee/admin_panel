@@ -1,0 +1,16 @@
+.uploadlabel{
+    /* display: wrap; */
+    text-align: center;
+}
+input[type="file"]{
+    margin-bottom: 10px;
+    background-color: black;
+    color: #fff;
+}
+input[type="file"]:is(focus,:valid){
+    box-shadow: 0 3px 6px rgba(0,0,0,0.2);
+  }
+.upload{
+    border: 1px solid rgb(255, 0, 179);
+    padding: 10px;
+}
